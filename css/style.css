@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400i|Solway:300&display=swap');
+
+ /* font-family: 'Solway', serif;
+font-family: 'Baskervville', serif; */
+
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    border: 5px solid rgb(5,85,11)
+}
+
+.nav-bar {
+    margin: 0 auto;
+    background-color: rgba(5,85,11, 0.95);
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.main {
+    height: 600px;
+    width: 100%;
+    background-image: url('../img/old-wonder.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.nav-list {
+    float: right;
+    padding-top: 10px;
+
+}
+
+.list-item {
+   height: 25px;
+   width: 45px;
+   color: white;
+   text-align: center;
+   display: inline-block;
+   list-style-type: none;
+   /* float: left; */
+   margin-right: 50px;
+   border: 3px solid green;
+   border-radius: 10px 5px;
+   padding: 5px
+}
+
+a li:hover {
+    background-color: red;
+}
+
+a li:hover {
+    color: green;
+}
+
+.main-text {
+    height: 80px;
+    width: 150px;
+    background-color:rgb(5,85,11);
+    color: white;
+    text-align: center;
+    border: darkgreen 3px solid;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    text-shadow: rgb(5, 22, 6) 3px 3px;
+    box-shadow: rgb(5, 22, 6) 3px;
+    
+}
+
+/******Main Style******/
+
+.main-section {
+    height: 500px;
+    width: 100%;
+
+}
+
+.col {
+    height: 500px;
+    width: 49.5%;
+    border: rgba(5,85,11, 0.75) 3px solid;
+    float: left;
+}
+
+.ancients {
+    width: 100%;
+    height: 500px;
+}
+
+.sec-text p {
+    text-align: center;
+    margin: 50px 10px 20px 10px;
+}
+
+/*********Footer Style********/
+
+.footer {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(5,85,11);
+    text-align: center;
+
+}
+
+.button-input, .social, .copy {
+    width: 33.3%;
+    float: left;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.button-input, .social {
+    margin-top: 20px;
+
+}
+
+button {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input {
+    height: 15px;
+}
+
+.fab {
+    font-size: 2em;
+    color: black;
+    margin-left: 15px;
+}
+
+.copy {
+    display: inline;
+}
