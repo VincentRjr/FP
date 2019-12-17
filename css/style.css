@@ -7,12 +7,13 @@ font-family: 'Baskervville', serif; */
 body {
     margin: 0 auto;
     width: 100%;
-    border: 5px solid rgb(5,85,11)
+    border: 10px solid rgb(207,169,53);
+    background-color: rgba(207,169,53,.75)
 }
 
 .nav-bar {
     margin: 0 auto;
-    background-color: rgba(5,85,11, 0.95);
+    background-color: rgb(207,169,53,.85);
     height: 120px;
     width: 100%;
     position: fixed;
@@ -23,6 +24,7 @@ body {
 .logo {
     height: 100px;
     margin: 0 auto;
+    padding-top: 10px;
 
 }
 
@@ -32,6 +34,7 @@ body {
     background-image: url('../img/old-wonder.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 110px;
 }
 
 
@@ -44,78 +47,82 @@ body {
 .list-item {
    height: 25px;
    width: 45px;
-   color: white;
+   color: rgb(0,0,0);
    text-align: center;
    display: inline-block;
    list-style-type: none;
    /* float: left; */
    margin-right: 50px;
-   border: 3px solid green;
+   border: 3px solid rgb(0,0,0);
    border-radius: 10px 5px;
    padding: 5px
 }
 
-a li:hover {
-    background-color: red;
-}
-
-a li:hover {
-    color: green;
-}
-
 .main-text {
-    height: 80px;
-    width: 150px;
-    background-color:rgb(5,85,11);
-    color: white;
+    height: 150px;
+    width: 250px;
+    background-color:rgb(207,169,53);
+    color: rgb(0,0,0);
     text-align: center;
-    border: darkgreen 3px solid;
+    border: rgb(0,0,0) 2px solid;
     position: absolute;
-    top: 200px;
-    left: 50px;
-    text-shadow: rgb(5, 22, 6) 3px 3px;
-    box-shadow: rgb(5, 22, 6) 3px;
+    top: 300px;
+    left: 550px;
+    text-shadow: rgb(207,130,1) 3px 3px;
+    box-shadow: rgb(207,130,1) 3px;
     
 }
 
 /******Main Style******/
 
 .main-section {
-    height: 500px;
+    height: 1500px;
     width: 100%;
 
 }
 
 .col {
-    height: 500px;
-    width: 49.5%;
-    border: rgba(5,85,11, 0.75) 3px solid;
-    float: left;
+    height: 675px;
+    width: 87%;
+    margin: 0 auto;
+    border: rgb(0,0,0) 2px solid;
+    /* float: left; */
 }
 
-.ancients {
-    width: 100%;
-    height: 500px;
-}
 
-.sec-text p {
+.sec-text h2 {
+    font-size: 35px;
     text-align: center;
     margin: 50px 10px 20px 10px;
 }
 
+.a1 {
+    height: 150px;
+    width: 150px;
+    padding-right: 8px;
+    padding-left: 9px;
+    float: right; 
+}
+
+iframe {
+    padding-top: 10px;
+    float: right;
+}
+
+
 /*********Footer Style********/
 
 .footer {
-    height: 120px;
+    height: 125px;
     width: 100%;
-    background-color: rgb(5,85,11);
+    background-color:rgb(207,169,53);
     text-align: center;
 
 }
 
 .button-input, .social, .copy {
     width: 33.3%;
-    float: left;
+    /* float: left; */
     margin: auto;
     text-align: center;
 
@@ -139,7 +146,7 @@ input {
 .fab {
     font-size: 2em;
     color: black;
-    margin-left: 15px;
+    margin-left: 25px;
 }
 
 .copy {
