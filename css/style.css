@@ -7,13 +7,13 @@ font-family: 'Baskervville', serif; */
 body {
     margin: 0 auto;
     width: 100%;
-    border: 10px solid rgb(207,169,53);
+    border: 10px solid rgb(207,160,45);
     background-color: rgba(207,169,53,.75);
 }
 
 .nav-bar {
     margin: 0 auto;
-    background-color: rgb(207,169,53,.85);
+    background-color: rgba(207,160,45,.85);
     height: 120px;
     width: 100%;
     position: fixed;
@@ -112,9 +112,9 @@ ul {
 }
 
 .main-text {
-    height: 250px;
+    height: 230px;
     width: 400px;
-    background-color:rgb(207,169,53);
+    background-color:rgb(207,160,45);
     color: rgb(0,0,0);
     text-align: center;
     font-size: 22px;
@@ -129,13 +129,14 @@ ul {
 /******Main Style******/
 
 .main-section {
-    height: 1400px;
+    height: 1600px;
     width: 100%;
 }
 
 .col {
     height: 675px;
     width: 87%;
+    background-color: rgb(207,160,45);
     margin: 0 auto;
     border: rgb(0,0,0) 2px solid;
     /* float: left; */
@@ -167,7 +168,7 @@ iframe {
 .footer {
     height: 125px;
     width: 100%;
-    background-color:rgb(207,169,53);
+    background-color:rgb(207,160,45);
     text-align: center;
 
 }
