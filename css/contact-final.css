@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Baskervville:400i|Solway:300&display=swap');
+
+ /* font-family: 'Solway', serif;
+font-family: 'Baskervville', serif; */
+
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    border: 10px solid rgb(207,160,45);
+    background-color: rgba(207,169,53,.75)
+}
+
+.nav-bar-c {
+    margin: 0 auto;
+    background-color: rgba(207,160,45,.85);
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    height: 100px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.main-c {
+    height: 1300px;
+    width: 100%;
+    background-image: url('../img/old-wonder.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.main-img {
+    height: 1200px;
+    width: 87.3%;
+    position: absolute;
+    top:820px;
+    left: 96px;
+    margin: 0 auto;
+}
+
+ul {
+    width: 80%;
+    list-style-type: none;
+    margin-left: 80px;
+    padding: 20px;
+    float: right;
+    overflow: hidden;
+    background-color: rgba(207,169,53,.10);
+  }
+  
+  li {
+      padding-right: 10px;
+    float: right;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: rgb(0,0,0);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 3px solid rgb(0,0,0);
+    border-radius: 15px 5px;
+    padding: 10px 20px;
+    text-decoration: rgb(0,0,0);
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    color: rgb(207,169,53);
+    background-color: rgb(0,0,0);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0,0,0);
+    min-width: 215px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(207,169,53);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+      color: rgb(0,0,0);
+      background-color: rgb(207,169,53);}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .main-text-c {
+    height: 100px;
+    width: 480px;
+    font-size: 25px;
+    background-color:rgb(207,169,53);
+    color: rgb(0,0,0);
+    text-align: center;
+    border: rgb(0,0,0) 1px solid;
+    border-radius: 10px 10px;
+    position: absolute;
+    padding-bottom: 15px;
+    top: 230px;
+    left: 455px;
+    text-shadow: rgb(207,130,1) 3px 3px;
+    box-shadow: rgb(207,130,1) 3px;
+    
+}
+
+.dol-c {
+    height: 1500px;
+    width: 70%;
+    position: absolute;
+    text-align: center;
+    top: 360px;
+    left: 200px;
+    background-color: rgb(207,160,45);
+    margin: 0 auto;
+    border: rgb(0,0,0) 2px solid;
+    /* float: left; */
+}
+
+.lw {
+    float: left;
+}
+
+.rw {
+    float: right;
+}
