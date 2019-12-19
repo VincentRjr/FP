@@ -28,16 +28,25 @@ body {
 }
 
 .main-c {
-    height: 1300px;
+    height: 2400px;
     width: 100%;
-    background-image: url('../img/old-wonder.jpg');
+    /* background-image: url('../img/old-wonder.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     margin-top: 20px;
 }
 
+.main-img2 {
+  width: 87.3%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 96px;
+  margin-top: 90px;
+}
+
 .main-img {
-    height: 1200px;
+    height: 1400px;
     width: 87.3%;
     position: absolute;
     top:820px;
@@ -124,7 +133,7 @@ ul {
 }
 
 .dol-c {
-    height: 1500px;
+    height: 2000px;
     width: 70%;
     position: absolute;
     text-align: center;
