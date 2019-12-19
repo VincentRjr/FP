@@ -141,13 +141,13 @@ ul {
 /******Main Style******/
 
 .main-section-a {
-    height: 1000px;
+    height: 900px;
     width: 100%;
 
 }
 
 .dol-a {
-    height: 726px;
+    height: 1300px;
     width: 78%;
     position: absolute;
     text-align: center;
@@ -159,7 +159,7 @@ ul {
     /* float: left; */
 }
 
-.gardens {
+.if1 {
     float: right;
 }
 
@@ -182,8 +182,8 @@ ul {
     /* float: left; */
 }
 
-.chi {
-    float: left;
+.if2 {
+    float: right;
 }
 
  .sect-text-a {
@@ -208,7 +208,7 @@ ul {
 .w2 {
     height: 280px;
     width: 380px;
-    float: right;
+    float: left;
 }
 
 
